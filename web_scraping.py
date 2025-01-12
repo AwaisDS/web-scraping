@@ -48,5 +48,5 @@ while True:
     except:
         print('no next page breaking the loop')
         break
-
+# creating data frame and csv file
 pd.DataFrame(complete_data_extracted).to_csv('complete_data.csv', index=False)
